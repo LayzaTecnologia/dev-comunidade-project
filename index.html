@@ -6,42 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="./assets/js/main.js"></script>
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="./menu.html">Menu</a>
-            <a href="./sobre.html">Sobre nós</a>
-            <a href="./chat.html">Chat</a>
-            <a href="./contato.html">Contato</a>
-        </nav>
+        <div id="menu-opcoes">
+            <a class="menu-elementos" href="./menu.html">Menu</a>
+            <a class="menu-elementos" href="./sobre.html">Sobre nós</a>
+            <a class="menu-elementos" href="./chat.html">Chat</a>
+            <a class="menu-elementos" href="./contato.html">Contato</a>
+        </div>
+        <div id="menu-cadastro">
+            <a class="menu-elementos" href="./cadastro.html">Cadastre-se</a>
+        </div>
     </header>
     <section class="container">
         <h1>Bem vindo(a)!</h1>
         <p>Faça aqui o seu login</p>
         <img src="./assets/img/game.svg">
         <form>
-            <label for="name">Nome</label>
-            <input id="name" type="text">
-            <label for="password">Senha</label>
-            <input id="password" type="password" Coloque a senha>
-            <button>Enviar</button>
+            <label class="formulario-label" for="name">Nome</label>
+            <input id="name" class="formulario-campo" type="text">
+            <label class="formulario-label" for="password">Senha</label>
+            <input id="password" class="formulario-campo" type="password" Coloque a senha>
+            <button id="formulario-botao">Enviar</button>
         </form>
-    </section>
-    <section id="cadastro-usuario">
-        <a href="./cadastro.html">
-            <button id="cadastro">
-                Cadastre-se
-            </button>
-        </a>
     </section>
 
     <footer>
 
     </footer>
 
-    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
